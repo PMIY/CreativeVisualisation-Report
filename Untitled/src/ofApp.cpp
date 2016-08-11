@@ -3,6 +3,7 @@
 //--------------------------------------------------------------
 void ofApp::setup(){
     
+    ofHideCursor();
     ofSetFullscreen(true);
     
     string filePath = "tamabi01.csv";
